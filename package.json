@@ -1,0 +1,32 @@
+{
+  "name": "dev-env-inspector-mcp",
+  "version": "1.0.0",
+  "description": "Universal multi-platform MCP server for analyzing development environment, tools, VS Code settings, and project diagnostics",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/server.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "development-environment",
+    "diagnostics",
+    "vscode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
