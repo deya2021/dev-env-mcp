@@ -1,7 +1,7 @@
 {
-  "name": "dev-env-inspector-mcp",
+  "name": "dev-env-amazonq-perf-mcp",
   "version": "1.0.0",
-  "description": "Universal multi-platform MCP server for analyzing development environment, tools, VS Code settings, and project diagnostics",
+  "description": "MCP server to analyze development environment and explain Amazon Q performance differences",
   "type": "module",
   "main": "dist/server.js",
   "scripts": {
@@ -13,9 +13,9 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
-    "development-environment",
-    "diagnostics",
-    "vscode"
+    "amazon-q",
+    "performance",
+    "development-environment"
   ],
   "author": "",
   "license": "MIT",
